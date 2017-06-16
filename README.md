@@ -21,7 +21,7 @@ This project is for me to learn Streams, NDK, and for fun.
 * GeoIp2数据库：https://dev.maxmind.com/geoip/geoip2/geolite2/
 
 ### Screenshot
-
+![screenshot](https://github.com/huzongyao/AndroidMaxMind/blob/master/misc/screen.gif?raw=true)
 
 ### About Me
  * GitHub: [https://huzongyao.github.io/](https://huzongyao.github.io/)

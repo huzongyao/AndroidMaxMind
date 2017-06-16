@@ -35,7 +35,7 @@ GeoLite2PP::DB::DB( const std::string &database_filename )
         LOGE(msg.c_str());
 		throw std::system_error( ec, msg );
 	} else{
-        LOGE("DB open[%s]", database_filename.c_str());
+        LOGD("DB open[%s]", database_filename.c_str());
 	}
 
 	return;
