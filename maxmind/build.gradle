@@ -30,9 +30,6 @@ model {
             }
         }
         release {
-            ndk {
-                cppFlags.add('-DNDK_DEBUG')
-            }
             minifyEnabled false
             proguardFiles.add(file('proguard-rules.pro'))
         }
