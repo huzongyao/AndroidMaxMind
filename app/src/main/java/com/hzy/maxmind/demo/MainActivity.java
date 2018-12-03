@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textDatInfo = (TextView) findViewById(R.id.text_meta_info);
-        editIpAddr = (EditText) findViewById(R.id.edit_input_ip);
-        buttonQuery = (Button) findViewById(R.id.button_query);
-        textResult = (TextView) findViewById(R.id.text_result_info);
+        textDatInfo = findViewById(R.id.text_meta_info);
+        editIpAddr = findViewById(R.id.edit_input_ip);
+        buttonQuery = findViewById(R.id.button_query);
+        textResult = findViewById(R.id.text_result_info);
         fillWithLocalIp();
         mmdbPath = getExternalFilesDir("mmdb").getPath();
         prefrence = getPreferences(MODE_PRIVATE);
